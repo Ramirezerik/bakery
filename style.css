@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding: 0;
+}
+/*NAVBAR*/
+#wrapper{
+    width: auto;
+    margin: auto;
+    background-color: rgb(16 37 66);
+    padding: 20px;
+}
+
+#navbar{
+    padding: 20px;
+    background-color: rgb(200 186 155);
+    margin-bottom: 20px;
+}
+
+#name{
+    color: black;
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#navbar, ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+ul{
+    flex: 5;
+}
+
+li{
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.redirect{
+    text-decoration: none;
+    color: rgb(20, 20, 85);
+}
+
+/*MAIN CONTENT*/
+#main{
+    padding: 20px;
+    background-color: rgb(200 186 155);
+}
+#main, img{
+    width: 98.5%;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: rgb(20, 20, 85);
+}
+
+/*CONTENT*/
+#content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: blanchedalmond;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/*SUBCONTENT this is to be formatted after completing the content section*/
+#about{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /*align-content: center;*/
+}
+
+#about img{
+    border-radius: 250px;
+    padding-right: 10px;
+}
+#about_title{
+
+    color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+#goods{
+    height: 250px;
+    width: 250px;
+    margin-right: 25px;
+}
+
+#goods img{
+    height: 45px;
+    width: 45px;
+}
+
+#goods h3{
+    
+}
+
+
+#reviews{
+    height: 100px;
+    width: 210px;
+
+}
+
+#reviews img{
+    height: 45px;
+    width: 45px;
+}
+
+#events{
+    height: 100px;
+    width: 210px;
+}
+#events img{
+    height: 45px;
+    width: 45px;
+}
