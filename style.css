@@ -1,7 +1,9 @@
+/*CSS RESET*/
 *{
     margin:0;
     padding: 0;
 }
+
 /*NAVBAR*/
 #wrapper{
     width: auto;
