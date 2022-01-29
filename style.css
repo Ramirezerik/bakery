@@ -1,9 +1,7 @@
-/*CSS RESET*/
 *{
     margin:0;
     padding: 0;
 }
-
 /*NAVBAR*/
 #wrapper{
     width: auto;
@@ -22,7 +20,6 @@
     color: black;
     font-size: 45px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
 }
 
 #navbar, ul{
@@ -65,7 +62,7 @@ li{
     justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
 }
 
 .heading{
@@ -74,36 +71,16 @@ li{
     margin-bottom: 10px;
 }
 
-/*SUBCONTENT this is to be formatted after completing the content section*/
-#about{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    /*align-content: center;*/
-}
 
-#about img{
-    border-radius: 250px;
-    padding-right: 10px;
-}
-#about_title{
-
-    color: blueviolet;
-}
-
-
-
-
-
-
-
-
-
+/* GOODS */
 #goods{
     height: 250px;
     width: 250px;
     margin-right: 25px;
+    padding: 15px;
+    align-content: center;
+    justify-content: center;
+    background-color: blanchedalmond;
 }
 
 #goods img{
@@ -112,7 +89,26 @@ li{
 }
 
 #goods h3{
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(83 82 78);
+}
+
+#goods p{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(32, 30, 30);
+    padding: 0px 12px 12px 20px;
+    margin-bottom: 20px;
+}
+
+#goods button{
+    height: 40px;
+    width: 100px;
+    background-color: #d99b5a;
+    border-radius: 7px;
+    color:rgb(83 82 78);
+    font-size: 15px;
+    margin-left: 15px;
 }
 
 
@@ -135,3 +131,57 @@ li{
     height: 45px;
     width: 45px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SUBCONTENT this is to be formatted after completing the content section*/
+#about{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#about img{
+    border-radius: 250px;
+    padding-right: 10px;
+    height: 350px;
+    width: 350px;
+}
+
+#about_title{
+    color: black;
+}
+
+#about h3{
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+#mission_statement{
+    
+    background-color: cornflowerblue;
+    padding-left: 20px;
+}
+
+#mission_statement p{
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 160px;
+    /* background-color: whitesmoke; */
+    color: black;
+}
+
+
