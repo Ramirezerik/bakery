@@ -57,12 +57,13 @@ li{
 }
 
 /*CONTENT*/
+
 #content{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 20px;
-    /* background-color: blanchedalmond; */
+    margin-left: 20px;
 }
 
 .heading{
@@ -71,8 +72,8 @@ li{
     margin-bottom: 10px;
 }
 
-
 /* GOODS */
+
 #goods{
     height: 250px;
     width: 250px;
@@ -111,11 +112,16 @@ li{
     margin-left: 15px;
 }
 
+/* REVIEWS */
 
 #reviews{
-    height: 100px;
-    width: 210px;
-
+    height: 250px;
+    width: 250px;
+    margin-right: 25px;
+    padding: 15px;
+    align-content: center;
+    justify-content: center;
+    background-color: blanchedalmond;
 }
 
 #reviews img{
@@ -123,28 +129,71 @@ li{
     width: 45px;
 }
 
-#events{
-    height: 100px;
-    width: 210px;
+#reviews h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(83 82 78);
 }
+
+#reviews p{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(32, 30, 30);
+    padding: 0px 12px 12px 20px;
+    margin-bottom: 20px;
+}
+
+#reviews button{
+    height: 40px;
+    width: 100px;
+    background-color: #d99b5a;
+    border-radius: 7px;
+    color:rgb(83 82 78);
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+/* EVENTS */
+
+#events{
+    height: 250px;
+    width: 250px;
+    margin-right: 25px;
+    padding: 15px;
+    align-content: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+}
+
 #events img{
     height: 45px;
     width: 45px;
 }
 
+#events h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(83 82 78);
+}
 
+#events p{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(32, 30, 30);
+    padding: 0px 12px 12px 20px;
+    margin-bottom: 20px;
+}
 
+#events button{
+    height: 40px;
+    width: 100px;
+    background-color: #d99b5a;
+    border-radius: 7px;
+    color:rgb(83 82 78);
+    font-size: 15px;
+    margin-left: 15px;
+}
 
+/*SUBCONTENT */
 
-
-
-
-
-
-
-
-
-/*SUBCONTENT this is to be formatted after completing the content section*/
 #about{
     display: flex;
     justify-content: space-evenly;
@@ -171,8 +220,6 @@ li{
 }
 
 #mission_statement{
-    
-    background-color: cornflowerblue;
     padding-left: 20px;
 }
 
@@ -183,5 +230,13 @@ li{
     /* background-color: whitesmoke; */
     color: black;
 }
+
+#footer{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(200 186 155);
+    border-radius: 5px;
+}
+
 
 
